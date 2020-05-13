@@ -22,7 +22,7 @@
   - [布局、渲染、合成、绘制](./布局-渲染-合成-绘制.md)
 - 主要的 API
   - [BOM API](/Browser/API-BOM.md)
-  - [DOM API](/Browser/API-DOM.md)
+  - [DOM API](./DOM.md)
   - [CSSOM API](/Browser/API-CSSOM.md)
   - [Event APIJK](/Browser/API-Event.md)
 - 常见场景
