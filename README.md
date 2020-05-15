@@ -21,7 +21,7 @@
   - [DOM 添加 CSS](./DOM添加CSS.md)
   - [布局、渲染、合成、绘制](./布局-渲染-合成-绘制.md)
 - 主要的 API
-  - [BOM API](/Browser/API-BOM.md)
+  - [BOM API](./BOM.md)
   - [DOM API](./DOM.md)
   - [CSSOM API](/Browser/API-CSSOM.md)
   - [Event APIJK](/Browser/API-Event.md)
