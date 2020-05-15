@@ -26,4 +26,4 @@
   - [CSSOM API](./CSSOM.md)
   - [Event API](./Event.md)
 - 常见场景
-  - [客户端检测](/Browser/客户端检测.md)
+  - [客户端检测](./客户端检测.md)
