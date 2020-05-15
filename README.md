@@ -23,7 +23,7 @@
 - 主要的 API
   - [BOM API](./BOM.md)
   - [DOM API](./DOM.md)
-  - [CSSOM API](/Browser/API-CSSOM.md)
-  - [Event APIJK](/Browser/API-Event.md)
+  - [CSSOM API](./CSSOM.md)
+  - [Event API](./Event.md)
 - 常见场景
   - [客户端检测](/Browser/客户端检测.md)
