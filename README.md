@@ -2,12 +2,14 @@
 
 浏览器的主要功能是把 URL 变成屏幕上能显示的网页。
 
+![browser-process](./images/browser-process.png)
+
 这个过程主要包括：
 
 1. 向 Server 发送请求，Server 返回 HTML
 2. 浏览器根据 HTML，构建 DOM
 3. 浏览器计算 DOM 上的 CSS
-4. 根据 CSS 对元素进行渲染，得到内存中的位图
+4. 根据 CSS 对元素进行布局、渲染，得到内存中的位图
 5. 对位图进行合成（可选）
 6. 最后绘制到屏幕上
 
@@ -26,4 +28,5 @@
   - [CSSOM API](./CSSOM.md)
   - [Event API](./Event.md)
 - 常见场景
+  - [玩具浏览器](https://github.com/juventusfc/toy-browser)
   - [客户端检测](./客户端检测.md)

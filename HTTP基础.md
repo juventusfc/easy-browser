@@ -4,7 +4,33 @@ HTTP 协议是基于 TCP 协议出现的，对 TCP 协议来说，TCP 协议是�
 
 ## HTTP 协议格式
 
+[rfc2616 标准](https://tools.ietf.org/html/rfc2616#section-6)
+
+该标准中，用 `\r\n`表示 `CRLF`。在使用老式的机械打字机时，如果你想在下一行最左端开始继续打印，需要做两个动作：
+
+1. CR: `\r`，先把机头重新推回最左侧，回到行首，这就是回车。
+2. LF: `\n`，但是他还没有换行，然后再按一下换行键，使他往下移动一行，代表换行。
+
+计算机刚产生的时候，主要还是文字界面，受打字机影响，也就有了这两个特殊字符。
+
 ![http](./images/http.jpg)
+
+### Request
+
+```text
+Request = Request-Line
+          *(( general-header
+            | request-header
+            | entity-header ) CRLF)
+          CRLF
+          [ message-body ]
+```
+
+![request-example](./images/request.png)
+
+### Response
+
+![response-example](./images/response.png)
 
 ## HTTP method
 

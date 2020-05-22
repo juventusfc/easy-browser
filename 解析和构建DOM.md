@@ -59,3 +59,13 @@ HTML 的 token 主要有：
 - 遇到注释节点，作为当前节点的子节点；
 - 遇到 tag start 就入栈一个节点，当前节点就是这个节点的父节点；
 - 遇到 tag end 就出栈一个节点（还可以检查是否匹配）。
+
+## 总结
+
+[HTML 标准](https://html.spec.whatwg.org/multipage/parsing.html#tokenization)
+
+生成 DOM 树：
+
+1. 使用状态机生成各个 token
+2. 将 token 赋给 element
+3. 将 element 放入 stack 中
